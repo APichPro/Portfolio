@@ -1,0 +1,39 @@
+.project_card {
+  width: 344px;
+  height: 488px;
+  background-color: #ecc86c44;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin: 0px -48px;
+  border: 1px solid var(--color-golden);
+}
+
+.project_card img {
+  border-radius: 10px;
+}
+
+.project_card div {
+  top: -40px;
+  position: relative;
+  text-align: center;
+  color: var(--color-golden);
+  letter-spacing:  0.1em;
+  text-transform: capitalize;
+  font-size: 48px;
+}
+
+.project_card_title {
+  font-size: 72px;
+  font-family: var(--font-base);
+}
+
+.project_down_icon {
+  margin-top: -25px;
+  font-size: 104px;
+  cursor: pointer;
+  color: var(--color-golden);
+  flex-direction: column;
+  transform: rotate(90deg) translateY(-10px);
+}

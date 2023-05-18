@@ -1,25 +1,25 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import NavBar from './component/NavBar/NavBar';
+import { titles } from './data/constant';
+import { BrowserRouter } from 'react-router-dom';
+import AnimatedRoutes from './router/AnimatedRoutes';
+import Links from './component/Links/Links';
+import {IntlProvider} from "react-intl";
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <IntlProvider locale='en' defaultLocale="en">
+      <BrowserRouter>
+        <NavBar titles={titles} />
+        <div className='background_image' />
+        <div className='app'>
+            <AnimatedRoutes></AnimatedRoutes>
+        </div>
+        <div className='links'>
+          <Links />
+        </div>
+      </BrowserRouter>
+    </IntlProvider>
   );
 }
 

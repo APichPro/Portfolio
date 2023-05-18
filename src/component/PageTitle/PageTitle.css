@@ -1,0 +1,29 @@
+.title {
+  width: 212px;
+}
+
+.text_title {
+  text-align: center;
+  color: var(--color-golden);
+  letter-spacing:  0.075em;
+  font-size: 72px;
+  text-transform: capitalize;
+}
+
+.underline_title {
+  background-color: var(--color-golden);
+  height: 1px;
+}
+
+
+@media screen and (max-width: 1150px) {
+  .title {
+    width: 100vw;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .title {
+    width: 100vw;
+  }
+}

@@ -1,0 +1,17 @@
+.homepage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.homepage img {
+  width: 300px;
+  height: 300px;
+}
+
+.homepage p {
+  color: var(--color-golden);
+  letter-spacing:  0.075em;
+  font-size: 72px;
+}

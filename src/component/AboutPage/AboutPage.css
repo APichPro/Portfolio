@@ -1,0 +1,23 @@
+.about_page {
+  display: flex;
+  flex-direction: column;
+}
+.about_content{
+  margin: 16px;
+  overflow-y: scroll;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 488px;
+}
+
+.about_content img {
+  border-radius: 50%;
+  height: 320px;
+  border: 1px solid var(--color-golden);
+}
+.about_content p {
+  color: var(--color-golden);
+  letter-spacing:  0.075em;
+  font-size: 72px;
+}

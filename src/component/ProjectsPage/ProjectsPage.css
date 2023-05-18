@@ -1,0 +1,12 @@
+.projects_page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.projects_carousel {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

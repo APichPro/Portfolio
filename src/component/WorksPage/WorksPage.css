@@ -1,0 +1,24 @@
+.workspage {
+  display: flex;
+  flex-direction: column;
+}
+
+.works_carousel {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 2000px) {
+}
+
+@media screen and (max-width: 1150px) {
+}
+
+@media screen and (max-width: 650px) {
+  .works_carousel {
+    margin-top: 0px;
+  }
+}
