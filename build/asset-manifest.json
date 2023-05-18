@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.8ee6378d.css",
+    "main.js": "/Portfolio/static/js/main.8c183ad7.js",
+    "static/media/back.png": "/Portfolio/static/media/back.9f4a59f46d60739b6a60.png",
+    "static/media/project_temp.png": "/Portfolio/static/media/project_temp.44b3eb04a774c24e370a.png",
+    "static/media/moi.jpg": "/Portfolio/static/media/moi.6c3256f3d591e5294071.jpg",
+    "static/media/adeo.png": "/Portfolio/static/media/adeo.0eb8b2d654facb4f077c.png",
+    "static/media/Morganite-ExtraLight.ttf": "/Portfolio/static/media/Morganite-ExtraLight.ea241485675bb2af1835.ttf",
+    "static/media/enedis.png": "/Portfolio/static/media/enedis.9d538e369faa3b787b30.png",
+    "static/media/astek.png": "/Portfolio/static/media/astek.5827d1bada85f854b372.png",
+    "static/media/logo.svg": "/Portfolio/static/media/logo.9ed6c2055b690d919fc5444b4f7c28ed.svg",
+    "static/media/home.svg": "/Portfolio/static/media/home.a4c44136cbc2f509efa77d21a65a4967.svg",
+    "static/media/github.svg": "/Portfolio/static/media/github.d17227540207504912dcf40935f745bd.svg",
+    "index.html": "/Portfolio/index.html",
+    "static/media/linkedin.svg": "/Portfolio/static/media/linkedin.57ceda3d079e8eac3ff2dba789ef48b4.svg",
+    "static/media/gmail.svg": "/Portfolio/static/media/gmail.643122e46948a9bcae79a29f6bb0c655.svg",
+    "main.8ee6378d.css.map": "/Portfolio/static/css/main.8ee6378d.css.map",
+    "main.8c183ad7.js.map": "/Portfolio/static/js/main.8c183ad7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8ee6378d.css",
+    "static/js/main.8c183ad7.js"
+  ]
+}
