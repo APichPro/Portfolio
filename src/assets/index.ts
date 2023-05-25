@@ -1,15 +1,43 @@
-//import logo from './images/logo.png';
-import { ReactComponent as Logo } from "./images/logo.svg";
+import { ReactComponent as Logo } from "./icons/logo.svg";
+import { ReactComponent as About } from "./icons/about.svg";
+import { ReactComponent as Home } from "./icons/home.svg";
+import { ReactComponent as Works } from "./icons/works.svg";
+import { ReactComponent as Projects } from "./icons/projects.svg";
+import { ReactComponent as Skills } from "./icons/skills.svg";
+import { ReactComponent as Contact } from "./icons/contact.svg";
 import back from './images/back.png';
-import { ReactComponent as GitHub } from "./images/github.svg";
-import { ReactComponent as Gmail } from "./images/gmail.svg";
-import { ReactComponent as LinkedIn } from "./images/linkedin.svg";
+import { ReactComponent as GitHub } from "./icons/github.svg";
+import { ReactComponent as Gmail } from "./icons/gmail.svg";
+import { ReactComponent as LinkedIn } from "./icons/linkedin.svg";
 import astek from './images/company_logo/astek.png';
 import orange from './images/company_logo/orange.png';
 import enedis from './images/company_logo/enedis.png';
 import adeo from './images/company_logo/adeo.png';
 import me from './images/moi.jpg';
-import { ReactComponent as Home } from "./images/home.svg";
+
+import { ReactComponent as LocationIcon } from "./icons/location.svg";
+import { ReactComponent as CalendarIcon } from "./icons/calendar.svg";
+import { ReactComponent as TypeIcon } from "./icons/type.svg";
+
+import { ReactComponent as Detail } from "./icons/detail.svg"
+
+import  React from "./icons/react.svg"
+import  Git from "./icons/git.svg"
+import  Next from "./icons/next.svg"
+import  Flutter from "./icons/flutter.svg"
+import  Angular from "./icons/angular.svg"
+import  Dart from "./icons/dart.svg"
+import  Typescript from "./icons/typescript.svg"
+import  Autoit from "./icons/autoit.svg"
+//import  Kubernetes from "./icons/kubernetes.svg"
+import  Docker from "./icons/docker.svg"
+import  Kafka from "./icons/kafka.svg"
+import  Symfony from "./icons/symfony.svg"
+import  Java from "./icons/java.svg"
+import  Mysql from "./icons/mysql.svg"
+import  Mongodb from "./icons/mongodb.svg"
+
+
 
 import temp from './images/project_temp.png';
 
@@ -25,6 +53,33 @@ export {
   enedis,
   me,
   Home,
+  About,
+  Works,
+  Projects,
+  Skills,
+  Contact,
+  LocationIcon,
+  CalendarIcon,
+  TypeIcon,
+  Detail,
+  React,
+  Git,
+  Next,
+  Flutter,
+  Angular,
+  Dart,
+  Typescript,
+  Autoit,
+  //Kubernetes,
+  Docker,
+  Kafka,
+  Symfony,
+  Java,
+  Mysql,
+  Mongodb,
+
+
+
 
   temp
 };

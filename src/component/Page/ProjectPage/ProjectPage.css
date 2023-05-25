@@ -1,0 +1,12 @@
+.project_page {
+  display: flex;
+  flex-direction: column;
+}
+.project_content{
+  margin: 16px;
+  overflow-y: scroll;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 488px;
+}

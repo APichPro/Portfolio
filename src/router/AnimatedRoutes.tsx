@@ -1,12 +1,13 @@
 import { Routes, Route, useLocation } from 'react-router-dom';
-import AboutPage from '../component/AboutPage/AboutPage';
-import ContactPage from '../component/ContactPage/ContactPage';
-import ProjectsPage from '../component/ProjectsPage/ProjectsPage';
-import SkillsPage from '../component/SkillsPage/SkillsPage';
-import WorksPage from '../component/WorksPage/WorksPage';
-import HomePage from '../component/HomePage/HomePage';
-
 import { AnimatePresence } from 'framer-motion';
+import ProjectPage from '../component/Page/ProjectPage/ProjectPage';
+import WorkPage from '../component/Page/WorkPage/WorkPage';
+import AboutPage from '../component/Page/AboutPage/AboutPage';
+import ContactPage from '../component/Page/ContactPage/ContactPage';
+import HomePage from '../component/Page/HomePage/HomePage';
+import ProjectsPage from '../component/Page/ProjectsPage/ProjectsPage';
+import SkillsPage from '../component/Page/SkillsPage/SkillsPage';
+import WorksPage from '../component/Page/WorksPage/WorksPage';
 
 const AnimatedRoutes = () => {
   const location = useLocation();
@@ -20,6 +21,8 @@ const AnimatedRoutes = () => {
         <Route path='/projects' element={<ProjectsPage />} />
         <Route path='/skills' element={<SkillsPage />} />
         <Route path='/contact' element={<ContactPage />} />
+        <Route path='/works/:company' element={<WorkPage />} />
+        <Route path='/projects/:name' element={<ProjectPage />} />
       </Routes>
     </AnimatePresence>
   )

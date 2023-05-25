@@ -1,0 +1,41 @@
+.skillspage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills_content {
+  top: -30px;
+  position: absolute;
+  height: 100vh;
+}
+
+.skill_filter input {
+  margin-top: 4px ;
+  background-color: transparent;
+  color: var(--color-golden);
+  border: 1px solid var(--color-golden);
+  border-radius: 2px;
+  font-size: 72px;
+  font-family: var(--font-base);
+}
+
+@media screen and (max-width: 2000px) {
+  .skill_filter {
+    z-index: 2;
+    margin-top: 25%;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .skill_filter {
+    margin-top: 0%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .skill_filter {
+    margin-top: 0%;
+  }
+}

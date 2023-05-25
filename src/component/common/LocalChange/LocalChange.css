@@ -1,0 +1,36 @@
+.select_locales {
+  color: var(--color-golden);
+  display: flex;
+  align-items: center;
+  margin: 4px 8px;
+
+}
+
+.select_locales button{
+  background-color: transparent;
+  border: none;
+  color : var(--color-golden);
+  font-size: 64px;
+  font-family: var(--font-base);
+  text-align: right;
+  width: 32px;
+  margin-left: 4px;
+}
+
+.options_locales{
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  transition: width 1s;
+  width: 80px;
+  margin: 0px 4px;
+  text-align: center;
+}
+.options_locales_div {
+  height: 56px;
+  width: 1px;
+  background-color: var(--color-golden);
+}
+.options_locales.display {
+  width: 0;
+}

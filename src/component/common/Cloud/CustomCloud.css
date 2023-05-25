@@ -1,0 +1,9 @@
+.skill_filter input {
+  margin-top: 4px ;
+  background-color: transparent;
+  color: var(--color-golden);
+  border: 1px solid var(--color-golden);
+  border-radius: 2px;
+  font-size: 72px;
+  font-family: var(--font-base);
+}
