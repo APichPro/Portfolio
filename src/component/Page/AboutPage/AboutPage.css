@@ -3,12 +3,13 @@
   flex-direction: column;
 }
 .about_content{
-  margin: 16px;
   overflow-y: scroll;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-evenly;
+  align-items: center;
   height: 488px;
+  padding: 16px;
 }
 
 .about_content img {
@@ -20,4 +21,17 @@
   color: var(--color-golden);
   letter-spacing:  0.075em;
   font-size: 72px;
+}
+
+
+@media screen and (max-width: 1150px) {
+  .about_content{
+    height: 90vh;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .about_content{
+    height: 90vh;
+  }
 }

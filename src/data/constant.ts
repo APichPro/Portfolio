@@ -1,4 +1,42 @@
-import { Gmail, GitHub, LinkedIn, astek, adeo, enedis, orange, temp, Home, Contact, Works, Projects, Skills, About, React, Next, Git, Flutter, Angular, Dart, Docker, Java, Kafka, Symfony, Autoit, Typescript, Mongodb, Mysql } from "../assets";
+import {
+  Gmail, 
+  GitHub, 
+  LinkedIn, 
+  astek, 
+  adeo, 
+  enedis, 
+  orange, 
+  temp, 
+  Home, 
+  Contact, 
+  Works, 
+  Projects, 
+  Skills, 
+  About, 
+  React, 
+  Next, 
+  Git, 
+  Flutter, 
+  Angular, 
+  Dart, 
+  Docker, 
+  Scala, 
+  Kafka, 
+  Symfony, 
+  Autoit, 
+  Typescript, 
+  Mongodb, 
+  Mysql,
+  Kubernetes,
+  C,
+  Hadoop,
+  Python,
+  Spark,
+  NodeJS,
+Bash,
+Pinot,
+Database
+} from "../assets";
 
 
 export const titles = [
@@ -143,21 +181,40 @@ export const works = [
 ];
 
 export const skills = [
-  {name: 'React', icon: React, score: 3, context: 'professional'},
-  {name: 'Next', icon: Next, score: 1, context: 'learning'},
-  {name: 'Git', icon: Git, score: 4, context: 'professional'},
-  {name: 'Flutter', icon: Flutter, score: 3, context: 'professional'},
-  {name: 'Kubernetes', icon: Flutter, score: 2, context: 'professional'},
-  {name: 'Docker', icon: Docker, score: 4, context: 'professional'},
-  {name: 'Kafka', icon: Kafka, score: 2, context: 'professional'},
-  {name: 'Angular', icon: Angular, score: 1, context: 'scholar'},
-  {name: 'Symfony', icon: Symfony, score: 1, context: 'scholar'},
-  {name: 'AutoIt', icon: Autoit, score: 2, context: 'professional'},
+  {name: 'React', icon: React, score: 3, context: 'professional', type: 'technology', current: true},
+  {name: 'Next', icon: Next, score: 1, context: 'learning', type: 'technology', current: false},
+  {name: 'Git', icon: Git, score: 3, context: 'professional', type: 'technology', current: true},
+  {name: 'Flutter', icon: Flutter, score: 3, context: 'professional', type: 'technology', current: false},
+  {name: 'Kubernetes', icon: Kubernetes, score: 2, context: 'professional', type: 'technology', current: false},
+  {name: 'Docker', icon: Docker, score: 4, context: 'professional', type: 'technology', current: true},
+  {name: 'Kafka', icon: Kafka, score: 2, context: 'professional', type: 'technology', current: false},
+  {name: 'Angular', icon: Angular, score: 1, context: 'scholar', type: 'technology', current: false},
+  {name: 'Symfony', icon: Symfony, score: 1, context: 'scholar', type: 'technology', current: false},
+  {name: 'AutoIt', icon: Autoit, score: 2, context: 'professional', type: 'technology', current: false},
+  {name: 'Spark', icon: Spark, score: 1, context: 'professional', type: 'technology', current: true},
+  {name: 'Hadoop', icon: Hadoop, score: 1, context: 'professional', type: 'technology', current: true},
+  {name: 'Node', icon: NodeJS, score: 2, context: 'learning', type: 'technology', current: true},
 
-  {name: 'JAVA', icon: Java, score: 2, context: 'professional'},
-  {name: 'Dart', icon: Dart, score: 3, context: 'professional'},
-  {name: 'TypeScript', icon: Typescript, score: 4, context: 'professional'},
 
-  {name: 'MySQL', icon: Mysql, score: 2, context: 'scholar'},
-  {name: 'MongoDB', icon: Mongodb, score: 3, context: 'learning'},
+  {name: 'Scala', icon: Scala, score: 2, context: 'professional', type: 'language', current: true},
+  {name: 'Dart', icon: Dart, score: 3, context: 'professional', type: 'language', current: false},
+  {name: 'TypeScript', icon: Typescript, score: 4, context: 'professional', type: 'language', current: true},
+  {name: 'C++', icon: C, score: 2, context: 'scholar', type: 'language', current: false},
+  {name: 'Python', icon: Python, score: 3, context: 'professional', type: 'language', current: false},
+  {name: 'Bash', icon: Bash, score: 2, context: 'professional', type: 'language', current: true},
+
+  {name: 'MySQL', icon: Mysql, score: 2, context: 'scholar', type: 'database', current: false},
+  {name: 'MongoDB', icon: Mongodb, score: 3, context: 'learning', type: 'database', current: false},
+  {name: 'Pinot', icon: Pinot, score: 2, context: 'professional', type: 'database', current: false},
+];
+
+export const contexts = [
+  {id: 'professional', icon: Database},
+  {id: 'learning', icon: Database},
+  {id: 'scholar', icon: Database}
+];
+export const types = [
+  {id: 'technology', icon: Database},
+  {id: 'language', icon: Database},
+  {id: 'database', icon: Database}
 ];

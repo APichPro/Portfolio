@@ -1,22 +1,19 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import './SkillsPage.css';
 import { motion } from 'framer-motion';
 import PageTitle from '../../common/PageTitle/PageTitle';
 import { useIntl } from 'react-intl';
 import { skills } from '../../../data/constant';
 import { CustomCloud } from '../../common/Cloud/CustomCloud';
+import SkillsFilter from '../../common/SkillsFilter/SkillsFilter';
 
 
 const SkillsPage = () => {
+  const [context, setContext] = useState(null);
 
-  const [filteredSkills, setFilteredSkills] = useState(skills);
+  const [type, setType ] = useState(null);
 
-  const [filterText, setFilterText] = useState('');
-
-  const handleFilterChange = (event: any) => {
-    setFilterText(event.target.value);
-    setFilteredSkills(skills.filter( skill => skill.name.toLowerCase().includes(event.target.value.toLowerCase())));
-  };
+  const [current, setCurrent] = useState(false);
 
   return (
     <motion.div
@@ -30,19 +27,22 @@ const SkillsPage = () => {
         damping: 20,
       }}
     >
-      <div className='skill_filter'>
-        <label>
-          <PageTitle title={useIntl().formatMessage({ id: 'skills' })}></PageTitle>
-          <input
-            type="text"
-            value={filterText}
-            onChange={handleFilterChange}
-            placeholder="Search..."
-          />
-        </label>
-      </div>
+        <PageTitle title={useIntl().formatMessage({ id: 'skills' })}></PageTitle>
+        <SkillsFilter
+          filterContext={context}
+          setFilterContext={setContext}
+          filterType={type}
+          setFilterType={setType}
+          current={current} 
+          setCurrent={setCurrent}
+        />
       <div className='skills_content'>
-        <CustomCloud skills={filteredSkills}/>
+        <CustomCloud
+          skills={skills.filter((skill) =>
+           ( !context || skill.context===context)
+            &&  (!type || skill.type===type)
+            &&  ( !current || skill.current===true)
+            )}/>
       </div>
     </motion.div>
   )

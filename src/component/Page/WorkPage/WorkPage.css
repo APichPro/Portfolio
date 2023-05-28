@@ -18,7 +18,7 @@
 .work_content p {
   color: var(--color-golden);
   letter-spacing:  0.17em;
-  font-size: 48px;
+  font-size: 32px;
   text-align: center;
 }
 
@@ -78,7 +78,7 @@ details[open] .animated-icon {
 
 @media screen and (max-width: 2000px) {
   .work_content{
-    height: 60vh;
+    height: 488px;
     padding: 32px 56px;
   }
   .work_content p {

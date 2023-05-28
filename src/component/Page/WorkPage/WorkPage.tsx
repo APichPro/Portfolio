@@ -33,9 +33,9 @@ const WorkPage = () => {
         <div className='work_content'>
           <img src={work?.logo} alt='Company logo'/>
           <p><FormattedMessage id={work?.company_desc}/></p>
-          <div><LocationIcon height="100px"/><p>{work?.city}</p></div>
-          <div><CalendarIcon height="100px"/><p>{`${work?.start.getMonth()!}/${work?.start.getFullYear()!} - ${work?.start.getMonth()!}/${work?.end.getFullYear()!}`}</p></div>
-          <div><TypeIcon height="100px"/><p><FormattedMessage id={work?.type}/></p></div>
+          <div><LocationIcon height="75px"/><p>{work?.city}</p></div>
+          <div><CalendarIcon height="75px"/><p>{`${work?.start.getMonth()!}/${work?.start.getFullYear()!}-${work?.start.getMonth()!}/${work?.end.getFullYear()!}`}</p></div>
+          <div><TypeIcon height="75px"/><p><FormattedMessage id={work?.type}/></p></div>
           <label className='work_missions'><FormattedMessage id="missions"/></label>
           <ul className='work_missions_list'>
             {work?.missions.map((mission) =>

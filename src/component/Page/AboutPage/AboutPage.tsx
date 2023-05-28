@@ -24,6 +24,10 @@ const AboutPage = () => {
       <div className='about_content'>
         <img src={me} alt='Me !'/>
         <p><FormattedMessage id="about_hi" /></p>
+        <p><FormattedMessage id="about_me" /></p>
+        <p><FormattedMessage id="about_studies" /></p>
+        <p><FormattedMessage id="about_projects" /></p>
+        <p><FormattedMessage id="about_discover" /></p>
       </div>
     </motion.div>
   )

@@ -14,6 +14,10 @@ export const messages = {
 
     // About
     about_hi: "Hi, I'm Aristide !",
+    about_me: "Welcome to my website ! Passionate by design, I espress my creativity through web development.",
+    about_studies: "With an engineering degree from ISEN, my studies and experience enable me to understand and solve the problems facing companies.",
+    about_projects: "",
+    about_discover: "",
 
     // Works
     missions: "missions",
@@ -80,6 +84,10 @@ export const messages = {
 
     // About
     about_hi:"Bonjour, je suis Aristide !",
+    about_me: "Bienvenue sur mon site ! Passionné par le design, j'exprime ma créativité à travers le développement web.",
+    about_studies: "Diplomée ingénieur de l'ISEN, mes études et éxperiences me permettent de comprendres et résoudre les problèmatiques qui s'impose au entreprise.",
+    about_projects: "",
+    about_discover: "",
 
     // Works
     missions: "missions",

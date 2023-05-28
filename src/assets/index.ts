@@ -19,23 +19,34 @@ import { ReactComponent as LocationIcon } from "./icons/location.svg";
 import { ReactComponent as CalendarIcon } from "./icons/calendar.svg";
 import { ReactComponent as TypeIcon } from "./icons/type.svg";
 
-import { ReactComponent as Detail } from "./icons/detail.svg"
+import { ReactComponent as Detail } from "./icons/detail.svg";
 
-import  React from "./icons/react.svg"
-import  Git from "./icons/git.svg"
-import  Next from "./icons/next.svg"
-import  Flutter from "./icons/flutter.svg"
-import  Angular from "./icons/angular.svg"
-import  Dart from "./icons/dart.svg"
-import  Typescript from "./icons/typescript.svg"
-import  Autoit from "./icons/autoit.svg"
-//import  Kubernetes from "./icons/kubernetes.svg"
-import  Docker from "./icons/docker.svg"
-import  Kafka from "./icons/kafka.svg"
-import  Symfony from "./icons/symfony.svg"
-import  Java from "./icons/java.svg"
-import  Mysql from "./icons/mysql.svg"
-import  Mongodb from "./icons/mongodb.svg"
+import { ReactComponent as Database } from "./icons/database.svg";
+
+import  React from "./icons/react.svg";
+import  Git from "./icons/git.svg";
+import  Next from "./icons/next.svg";
+import  Flutter from "./icons/flutter.svg";
+import  Angular from "./icons/angular.svg";
+import  Dart from "./icons/dart.svg";
+import  Typescript from "./icons/typescript.svg";
+import  Autoit from "./icons/autoit.svg";
+import  Kubernetes from "./icons/kubernetes.svg";
+import  Docker from "./icons/docker.svg";
+import  Kafka from "./icons/kafka.svg";
+import  Symfony from "./icons/symfony.svg";
+import  Scala from "./icons/java.svg";
+import  Mysql from "./icons/mysql.svg";
+import  Mongodb from "./icons/mongodb.svg";
+import  Spark from "./icons/spark.svg";
+import  Hadoop from "./icons/hadoop.svg";
+import  Python from "./icons/python.svg";
+import  C from "./icons/c.svg";
+import  NodeJS from "./icons/node.svg";
+import  Bash from "./icons/bash.svg";
+import  Pinot from "./icons/pinot.svg";
+
+
 
 
 
@@ -70,13 +81,21 @@ export {
   Dart,
   Typescript,
   Autoit,
-  //Kubernetes,
+  Kubernetes,
   Docker,
   Kafka,
   Symfony,
-  Java,
+  Scala,
   Mysql,
   Mongodb,
+  Spark,
+  Hadoop,
+  C,
+  Python,
+  NodeJS,
+  Bash,
+  Pinot,
+  Database,
 
 
 

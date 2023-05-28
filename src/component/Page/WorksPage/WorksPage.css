@@ -15,10 +15,13 @@
 }
 
 @media screen and (max-width: 1150px) {
+  .works_carousel {
+    height: 80vh;
+  }
 }
 
 @media screen and (max-width: 650px) {
   .works_carousel {
-    margin-top: 0px;
+    height: 80vh;
   }
 }

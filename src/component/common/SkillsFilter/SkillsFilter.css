@@ -1,0 +1,42 @@
+.skill_filter {
+  display: flex;
+  
+}
+
+.select {
+  color: var(--color-golden);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 4px 8px;
+
+}
+
+.select button{
+  background-color: transparent;
+  border: none;
+  color : var(--color-golden);
+  font-size: 64px;
+  font-family: var(--font-base);
+  text-align: right;
+  margin-left: 4px;
+  text-transform: capitalize;
+}
+
+.options{
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  transition: height 1s;
+  margin: 0px 4px;
+  text-align: center;
+  height: 192px;
+}
+.options_div {
+  height: 1px;
+  width: 64px;
+  background-color: var(--color-golden);
+}
+.options.display {
+  height: 0;
+}
