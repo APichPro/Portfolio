@@ -45,8 +45,6 @@ const ProjectsPage = () => {
       <div className='projects_carousel'>
         <AnimatePresence mode="popLayout" initial={false}>
           {visibleItems.map((item) => {
-            // The layout prop makes the elements change its position as soon as a new one is added
-            // The key tells framer-motion that the elements changed its position
             return (
               <motion.div
                 className="card"

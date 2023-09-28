@@ -35,5 +35,5 @@
   cursor: pointer;
   color: var(--color-golden);
   flex-direction: column;
-  transform: rotate(90deg) translateY(-10px);
+ transform: rotate(90deg) translateY(-10px);
 }

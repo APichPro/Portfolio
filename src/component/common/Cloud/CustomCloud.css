@@ -4,4 +4,9 @@
   border-radius: 10px;
   font-size: 72px;
   color: var(--color-golden);
+  text-align: center;
+}
+
+.tooltip div {
+  display: flex;
 }

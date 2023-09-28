@@ -1,6 +1,5 @@
 .skill_filter {
   display: flex;
-  
 }
 
 .select {
@@ -9,7 +8,6 @@
   flex-direction: column;
   align-items: center;
   margin: 4px 8px;
-
 }
 
 .select button{

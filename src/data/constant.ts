@@ -33,9 +33,20 @@ import {
   Python,
   Spark,
   NodeJS,
-Bash,
-Pinot,
-Database
+  Bash,
+  Pinot,
+  Database,
+  Key,
+  Code,
+  Pro,
+  Scholar,
+  Learning,
+CodeImg,
+DatabaseImg,
+KeyImg,
+LearningImg,
+ProImg,
+ScholarImg
 } from "../assets";
 
 
@@ -181,40 +192,40 @@ export const works = [
 ];
 
 export const skills = [
-  {name: 'React', icon: React, score: 3, context: 'professional', type: 'technology', current: true},
-  {name: 'Next', icon: Next, score: 1, context: 'learning', type: 'technology', current: false},
-  {name: 'Git', icon: Git, score: 3, context: 'professional', type: 'technology', current: true},
-  {name: 'Flutter', icon: Flutter, score: 3, context: 'professional', type: 'technology', current: false},
-  {name: 'Kubernetes', icon: Kubernetes, score: 2, context: 'professional', type: 'technology', current: false},
-  {name: 'Docker', icon: Docker, score: 4, context: 'professional', type: 'technology', current: true},
-  {name: 'Kafka', icon: Kafka, score: 2, context: 'professional', type: 'technology', current: false},
-  {name: 'Angular', icon: Angular, score: 1, context: 'scholar', type: 'technology', current: false},
-  {name: 'Symfony', icon: Symfony, score: 1, context: 'scholar', type: 'technology', current: false},
-  {name: 'AutoIt', icon: Autoit, score: 2, context: 'professional', type: 'technology', current: false},
-  {name: 'Spark', icon: Spark, score: 1, context: 'professional', type: 'technology', current: true},
-  {name: 'Hadoop', icon: Hadoop, score: 1, context: 'professional', type: 'technology', current: true},
-  {name: 'Node', icon: NodeJS, score: 2, context: 'learning', type: 'technology', current: true},
+  {name: 'React', icon: React, score: 3, context: ProImg, type:  KeyImg, current: true},
+  {name: 'Next', icon: Next, score: 1, context: LearningImg, type:  KeyImg, current: false},
+  {name: 'Git', icon: Git, score: 3, context: ProImg, type:  KeyImg, current: true},
+  {name: 'Flutter', icon: Flutter, score: 3, context: ProImg, type:  KeyImg, current: false},
+  {name: 'Kubernetes', icon: Kubernetes, score: 2, context: ProImg, type:  KeyImg, current: false},
+  {name: 'Docker', icon: Docker, score: 4, context: ProImg, type:  KeyImg, current: true},
+  {name: 'Kafka', icon: Kafka, score: 2, context: ProImg, type:  KeyImg, current: false},
+  {name: 'Angular', icon: Angular, score: 1, context: ScholarImg, type:  KeyImg, current: false},
+  {name: 'Symfony', icon: Symfony, score: 1, context: ScholarImg, type:  KeyImg, current: false},
+  {name: 'AutoIt', icon: Autoit, score: 2, context: ProImg, type:  KeyImg, current: false},
+  {name: 'Spark', icon: Spark, score: 1, context: ProImg, type:  KeyImg, current: true},
+  {name: 'Hadoop', icon: Hadoop, score: 1, context: ProImg, type:  KeyImg, current: true},
+  {name: 'Node', icon: NodeJS, score: 2, context: LearningImg, type:  KeyImg, current: true},
 
 
-  {name: 'Scala', icon: Scala, score: 2, context: 'professional', type: 'language', current: true},
-  {name: 'Dart', icon: Dart, score: 3, context: 'professional', type: 'language', current: false},
-  {name: 'TypeScript', icon: Typescript, score: 4, context: 'professional', type: 'language', current: true},
-  {name: 'C++', icon: C, score: 2, context: 'scholar', type: 'language', current: false},
-  {name: 'Python', icon: Python, score: 3, context: 'professional', type: 'language', current: false},
-  {name: 'Bash', icon: Bash, score: 2, context: 'professional', type: 'language', current: true},
+  {name: 'Scala', icon: Scala, score: 2, context: ProImg, type: CodeImg, current: true},
+  {name: 'Dart', icon: Dart, score: 3, context: ProImg, type: CodeImg, current: false},
+  {name: 'TypeScript', icon: Typescript, score: 4, context: ProImg, type: CodeImg, current: true},
+  {name: 'C++', icon: C, score: 2, context: ScholarImg, type: CodeImg, current: false},
+  {name: 'Python', icon: Python, score: 3, context: ProImg, type: CodeImg, current: false},
+  {name: 'Bash', icon: Bash, score: 2, context: ProImg, type: CodeImg, current: true},
 
-  {name: 'MySQL', icon: Mysql, score: 2, context: 'scholar', type: 'database', current: false},
-  {name: 'MongoDB', icon: Mongodb, score: 3, context: 'learning', type: 'database', current: false},
-  {name: 'Pinot', icon: Pinot, score: 2, context: 'professional', type: 'database', current: false},
+  {name: 'MySQL', icon: Mysql, score: 2, context: ScholarImg, type:  DatabaseImg, current: false},
+  {name: 'MongoDB', icon: Mongodb, score: 3, context: LearningImg, type:  DatabaseImg, current: false},
+  {name: 'Pinot', icon: Pinot, score: 2, context: ProImg, type:  DatabaseImg, current: false},
 ];
 
 export const contexts = [
-  {id: 'professional', icon: Database},
-  {id: 'learning', icon: Database},
-  {id: 'scholar', icon: Database}
+  {id: 'professional', icon: Pro, img: ProImg},
+  {id: 'learning', icon: Learning, img: LearningImg},
+  {id: 'scholar', icon: Scholar, img: ScholarImg}
 ];
 export const types = [
-  {id: 'technology', icon: Database},
-  {id: 'language', icon: Database},
-  {id: 'database', icon: Database}
+  {id: 'technology', icon: Key, img: KeyImg},
+  {id: 'language', icon: Code, img: CodeImg},
+  {id: 'database', icon: Database, img: DatabaseImg}
 ];

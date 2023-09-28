@@ -25,7 +25,7 @@ const SkillsFilter = (
           <button
             onClick={() => contextOptions ? setContextOptions(false) : setContextOptions(true)}
           >
-            {filterContext ? filterContext : 'No filter'}
+            {filterContext ? (<filterContext.icon height={50} width={50} />) : 'No filter'}
           </button>
           <button
             onClick={() => setFilterContext(null)}
@@ -40,11 +40,11 @@ const SkillsFilter = (
               title={context.id}
               key={context.id}
               onClick={() => {
-                setFilterContext(context.id);
+                setFilterContext(context);
                 setContextOptions(false);
               }}
             >
-              <context.icon />
+              <context.icon height={50} width={50}/>
             </button>
           )}
         </div>
@@ -54,7 +54,7 @@ const SkillsFilter = (
           <button
             onClick={() => typeOptions ? setTypeOptions(false) : setTypeOptions(true)}
           >
-            {filterType ? filterType : 'No filter'}
+            {filterType ? <filterType.icon height={50} width={50} /> : 'No filter'}
           </button>
           <button
             onClick={() => setFilterType(null)}
@@ -69,11 +69,11 @@ const SkillsFilter = (
               title={type.id}
               key={type.id}
               onClick={() => {
-                setFilterType(type.id);
+                setFilterType(type);
                 setTypeOptions(false);
               }}
             >
-              <type.icon />
+              <type.icon height={50} width={50}/>
             </button>
           )}
         </div>

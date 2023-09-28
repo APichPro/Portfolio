@@ -22,6 +22,12 @@ import { ReactComponent as TypeIcon } from "./icons/type.svg";
 import { ReactComponent as Detail } from "./icons/detail.svg";
 
 import { ReactComponent as Database } from "./icons/database.svg";
+import { ReactComponent as Key } from "./icons/key.svg";
+import { ReactComponent as Code } from "./icons/code.svg";
+
+import { ReactComponent as Pro } from "./icons/professional.svg";
+import { ReactComponent as Scholar } from "./icons/scholar.svg";
+import { ReactComponent as Learning } from "./icons/learning.svg";
 
 import  React from "./icons/react.svg";
 import  Git from "./icons/git.svg";
@@ -46,6 +52,14 @@ import  NodeJS from "./icons/node.svg";
 import  Bash from "./icons/bash.svg";
 import  Pinot from "./icons/pinot.svg";
 
+
+import DatabaseImg from "./icons/database.svg";
+import KeyImg from "./icons/key.svg";
+import CodeImg from "./icons/code.svg";
+
+import ProImg from "./icons/professional.svg";
+import ScholarImg from "./icons/scholar.svg";
+import LearningImg from "./icons/learning.svg";
 
 
 
@@ -96,7 +110,17 @@ export {
   Bash,
   Pinot,
   Database,
-
+  Key,
+  Code,
+  Pro,
+  Scholar,
+  Learning,
+  DatabaseImg,
+  KeyImg,
+  CodeImg,
+  ProImg,
+  ScholarImg,
+  LearningImg,
 
 
 

@@ -9,11 +9,13 @@ import SkillsFilter from '../../common/SkillsFilter/SkillsFilter';
 
 
 const SkillsPage = () => {
-  const [context, setContext] = useState(null);
+  const [context, setContext] = useState<any>(null);
 
-  const [type, setType ] = useState(null);
+  const [type, setType ] = useState<any>(null);
 
   const [current, setCurrent] = useState(false);
+
+  const [selectedSkill, setSelectedSkill] = useState<any>(null);
 
   return (
     <motion.div
@@ -24,7 +26,7 @@ const SkillsPage = () => {
       transition={{
         type: "spring",
         stiffness: 260,
-        damping: 20,
+        damping: 20
       }}
     >
         <PageTitle title={useIntl().formatMessage({ id: 'skills' })}></PageTitle>
@@ -38,12 +40,14 @@ const SkillsPage = () => {
         />
       <div className='skills_content'>
         <CustomCloud
+          selectedSkill={selectedSkill} setSelectedSkill={setSelectedSkill}
           skills={skills.filter((skill) =>
-           ( !context || skill.context===context)
-            &&  (!type || skill.type===type)
+           ( !context || skill.context===context.img)
+            &&  (!type || skill.type===type.img)
             &&  ( !current || skill.current===true)
             )}/>
       </div>
+      {/* <SkillCard selectedSkill={selectedSkill} setSelectedSkill={setSelectedSkill} /> */}
     </motion.div>
   )
 }

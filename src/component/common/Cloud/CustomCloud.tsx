@@ -1,8 +1,10 @@
 import { Cloud, ICloud } from "react-icon-cloud";
 import "./CustomCloud.css";
 import { useState, useEffect } from "react";
+import { contexts, types } from '../../../data/constant';
 
-export const CustomCloud = ({ skills }: any) => {
+
+export const CustomCloud = ({ skills, selectedSkill, setSelectedSkill }: any) => {
 
   const [windowSize, setWindowSize] = useState({
     width: window.innerWidth,
@@ -34,7 +36,7 @@ export const CustomCloud = ({ skills }: any) => {
       depth: 1,
       imageScale: 0.1,
       tooltipDelay: 0,
-      tooltip: "div",
+      tooltip: windowSize.width >= 1150 ? "div" : null,
       tooltipClass: "tooltip",
       zoomMin: 0.5,
       zoom: windowSize.width >= 1150 ? 0.88 : 0.5,
@@ -60,7 +62,15 @@ export const CustomCloud = ({ skills }: any) => {
       skills.length !== 0 ? (
         skills.map((skill: any, index: number) => (
           // eslint-disable-next-line jsx-a11y/anchor-is-valid
-          <a key={index} href={`#`} title="<p>This is<br>my title</p>">
+          <a
+            key={index}
+            href={`#`}
+            title={`<p>${skill.name}</p>
+                    <p>${skill.score}/5</p>
+                    <div><img src="${skill.context}"/><img src=${skill.type}/></div>
+                    `}
+            onClick={() => {setSelectedSkill(skill);console.log(selectedSkill)}}
+          >
             <img src={skill.icon} alt={skill.name} height={1500} width={1500} />
           </a>
         ))
@@ -74,5 +84,7 @@ export const CustomCloud = ({ skills }: any) => {
       ),
   };
 
-  return <Cloud {...cloudProps} />;
+  return (
+            <Cloud {...cloudProps} />
+          );
 };

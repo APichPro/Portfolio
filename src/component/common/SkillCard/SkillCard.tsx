@@ -1,11 +1,13 @@
 import './SkillCard.css';
 
 const SkillCard = (
-  { skill } : any
+  { selectedSkill, setSelectedSkill } : any
 ) => {
   return (
     <div className="skill_card">
-      <skill.icon height={100} width={100}/>
+      {selectedSkill
+        ? <img src={selectedSkill.icon} alt={selectedSkill.name} height={100} width={100}/>
+        : 'No selected skill'}
     </div>
   )
 }
