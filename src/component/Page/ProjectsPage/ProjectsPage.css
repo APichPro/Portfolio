@@ -10,3 +10,21 @@
   align-items: center;
   justify-content: center;
 }
+
+@media screen and (max-width: 2000px) {
+  .projects_carousel {
+    height: 60vh;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .projects_carousel {
+    height: 80vh;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .projects_carousel {
+    height: 80vh;
+  }
+}
