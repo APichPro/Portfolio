@@ -1,7 +1,8 @@
 import {
   Gmail, 
   GitHub, 
-  LinkedIn, 
+  LinkedIn,
+  capgemini,
   astek, 
   adeo, 
   enedis, 
@@ -62,7 +63,7 @@ export const titles = [
 export const links = [
   { name: 'LinkedIn', icon: LinkedIn, url: 'https://www.linkedin.com/in/aristide-pichereau-b44745180/'},
   { name: 'GitHub', icon: GitHub,  url: 'https://github.com/APichPro'},
-  { name: 'Gmail', icon: Gmail,  url: 'aristide.pichereau@gmail.com'}
+  { name: 'Gmail', icon: Gmail,  url: 'mailto:aristide.pichereau@gmail.com?Subject=Making%20contact'}
 ];
 
 export const projects = [
@@ -76,29 +77,14 @@ export const projects = [
   },
   {
     id: 1,
-    name: 'KeyCoffee',
-    image: temp,
-    context: 'scholar',
-    type: 'web_application',
-    main_technologie: ['Angular', 'Symfony']
-  },
-  {
-    id: 2, name: 'TechToc',
+    name: 'Violinova',
     image: temp,
     context: 'learning',
     type: 'web_application',
-    main_technologie: ['Next', 'React'],
+    main_technologie: ['Next'],
   },
   {
-    id: 3,
-    name: 'Youtube',
-    image: temp,
-    context: 'learning',
-    type: 'web_application',
-    main_technologie: ['React'],
-  },
-  {
-    id: 4,
+    id: 2,
     name: 'Portfolio',
     image: temp,
     context: 'professional',
@@ -108,8 +94,28 @@ export const projects = [
 ];
 
 export const works = [
-	{
+  {
 		id: 0,
+		job: "capgemini_job",
+		company: "capgemini",
+    company_desc: "capgemini_desc",
+    start : new Date(2022, 11),
+    end : new Date(2023, 3),
+    city : "brest",
+    type : "capgemini_type",
+    logo : capgemini,
+    missions:[
+        "capgemini_mission_1",
+        "capgemini_mission_2",
+        "capgemini_mission_3",
+        "capgemini_mission_4"
+    ],
+    job_desc:"capgemini_job_desc",
+    technologie: ["JIRA", "Excel"] ,
+    methodologie:["Agile"]
+	},
+	{
+		id: 1,
 		job: "astek_job",
 		company: "astek",
     company_desc: "astek_desc",
@@ -129,7 +135,7 @@ export const works = [
     methodologie:["Agile"]
 	},
 	{
-		id: 1,
+		id: 2,
 		job: "orange_job",
 		company: "orange",
     company_desc: "orange_desc",
@@ -152,7 +158,7 @@ export const works = [
     methodologie:["Agile", "Conteneurisation","CI/CD"]
 	},
 	{
-		id: 2,
+		id: 3,
 		job: "adeo_job",
     company: "adeo",
     company_desc: "adeo_desc",
@@ -172,7 +178,7 @@ export const works = [
     methodologie:["Agile", "Composant web", "CI/CD"]
 	}, 
 	{
-		id: 3,
+		id: 4,
 		job: "developer",
 		company: "enedis",
     company_desc: "enedis_desc",
@@ -199,24 +205,24 @@ export const skills = [
   {name: 'Kubernetes', icon: Kubernetes, score: 2, context: ProImg, type:  KeyImg, current: false},
   {name: 'Docker', icon: Docker, score: 4, context: ProImg, type:  KeyImg, current: true},
   {name: 'Kafka', icon: Kafka, score: 2, context: ProImg, type:  KeyImg, current: false},
-  {name: 'Angular', icon: Angular, score: 1, context: ScholarImg, type:  KeyImg, current: false},
-  {name: 'Symfony', icon: Symfony, score: 1, context: ScholarImg, type:  KeyImg, current: false},
-  {name: 'AutoIt', icon: Autoit, score: 2, context: ProImg, type:  KeyImg, current: false},
+  // {name: 'Angular', icon: Angular, score: 1, context: ScholarImg, type:  KeyImg, current: false},
+  // {name: 'Symfony', icon: Symfony, score: 1, context: ScholarImg, type:  KeyImg, current: false},
+  // {name: 'AutoIt', icon: Autoit, score: 2, context: ProImg, type:  KeyImg, current: false},
   {name: 'Spark', icon: Spark, score: 1, context: ProImg, type:  KeyImg, current: true},
   {name: 'Hadoop', icon: Hadoop, score: 1, context: ProImg, type:  KeyImg, current: true},
-  {name: 'Node', icon: NodeJS, score: 2, context: LearningImg, type:  KeyImg, current: true},
+  // {name: 'Node', icon: NodeJS, score: 2, context: LearningImg, type:  KeyImg, current: true},
 
 
   {name: 'Scala', icon: Scala, score: 2, context: ProImg, type: CodeImg, current: true},
   {name: 'Dart', icon: Dart, score: 3, context: ProImg, type: CodeImg, current: false},
   {name: 'TypeScript', icon: Typescript, score: 4, context: ProImg, type: CodeImg, current: true},
-  {name: 'C++', icon: C, score: 2, context: ScholarImg, type: CodeImg, current: false},
+  // {name: 'C++', icon: C, score: 2, context: ScholarImg, type: CodeImg, current: false},
   {name: 'Python', icon: Python, score: 3, context: ProImg, type: CodeImg, current: false},
-  {name: 'Bash', icon: Bash, score: 2, context: ProImg, type: CodeImg, current: true},
+  // {name: 'Bash', icon: Bash, score: 2, context: ProImg, type: CodeImg, current: true},
 
   {name: 'MySQL', icon: Mysql, score: 2, context: ScholarImg, type:  DatabaseImg, current: false},
-  {name: 'MongoDB', icon: Mongodb, score: 3, context: LearningImg, type:  DatabaseImg, current: false},
-  {name: 'Pinot', icon: Pinot, score: 2, context: ProImg, type:  DatabaseImg, current: false},
+  // {name: 'MongoDB', icon: Mongodb, score: 3, context: LearningImg, type:  DatabaseImg, current: false},
+  // {name: 'Pinot', icon: Pinot, score: 2, context: ProImg, type:  DatabaseImg, current: false},
 ];
 
 export const contexts = [

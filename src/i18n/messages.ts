@@ -2,7 +2,7 @@ import { LOCALES } from "./locales";
 
 export const messages = {
   [LOCALES.ENGLISH]: {
-    home_job: "Designer and Developer",
+    home_job: "Data engineer",
 
     // NavBar titles
     home: "home",
@@ -72,7 +72,7 @@ export const messages = {
     scholar: "scholar",
   },
   [LOCALES.FRENCH]: {
-    home_job: "Designer et développeur",
+    home_job: "Ingénieur de données",
 
     // NavBar titles
     home: "acceuil",

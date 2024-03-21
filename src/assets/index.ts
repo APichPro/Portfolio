@@ -13,6 +13,7 @@ import astek from './images/company_logo/astek.png';
 import orange from './images/company_logo/orange.png';
 import enedis from './images/company_logo/enedis.png';
 import adeo from './images/company_logo/adeo.png';
+import capgemini from './images/company_logo/capgemini.png';
 import me from './images/moi.jpg';
 
 import { ReactComponent as LocationIcon } from "./icons/location.svg";
@@ -121,7 +122,7 @@ export {
   ProImg,
   ScholarImg,
   LearningImg,
-
+  capgemini,
 
 
   temp

@@ -10,7 +10,6 @@ import LocalChange from './component/common/LocalChange/LocalChange';
 import NavBar from './component/common/NavBar/NavBar';
 
 
-
 function App() {
   const [locale, setLocale] = useState(LOCALES.ENGLISH)
   return (  
