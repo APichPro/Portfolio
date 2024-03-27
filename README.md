@@ -2,7 +2,7 @@
 
 Welcome to my portfolio! This project showcases my projects and works.
 
-![portfolio](assets/images/image.png)
+![portfolio](src\assets\images\image.png)
 
 ## Project build
 
