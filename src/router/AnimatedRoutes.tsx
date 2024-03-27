@@ -8,6 +8,7 @@ import HomePage from '../component/Page/HomePage/HomePage';
 import ProjectsPage from '../component/Page/ProjectsPage/ProjectsPage';
 import SkillsPage from '../component/Page/SkillsPage/SkillsPage';
 import WorksPage from '../component/Page/WorksPage/WorksPage';
+import ResumePage from '../component/Page/ResumePage/ResumePage';
 
 const AnimatedRoutes = () => {
   const location = useLocation();
@@ -21,6 +22,7 @@ const AnimatedRoutes = () => {
         <Route path='/projects' element={<ProjectsPage />} />
         <Route path='/skills' element={<SkillsPage />} />
         <Route path='/contact' element={<ContactPage />} />
+        <Route path='/resume' element={<ResumePage />} />
         <Route path='/works/:company' element={<WorkPage />} />
         <Route path='/projects/:name' element={<ProjectPage />} />
       </Routes>

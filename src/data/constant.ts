@@ -57,7 +57,8 @@ export const titles = [
   { id: 'works', icon: Works},
   { id: 'projects', icon: Projects},
   { id: 'skills', icon: Skills},
-  { id: 'contact', icon: Contact}
+  { id: 'contact', icon: Contact},
+  { id: 'resume', icon: Contact}
 ];
 
 export const links = [

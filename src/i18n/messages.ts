@@ -11,6 +11,7 @@ export const messages = {
     projects: "projects",
     skills: "skills",
     contact: "contact",
+    resume: "resume",
 
     // About
     about_hi: "Hi, I'm Aristide !",
@@ -81,6 +82,7 @@ export const messages = {
     projects: "projets",
     skills: "compétences",
     contact: "contact",
+    resume: "CV",
 
     // About
     about_hi:"Bonjour, je suis Aristide !",
